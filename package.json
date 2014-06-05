@@ -1,0 +1,25 @@
+{
+  "name": "test-gulp-browserify",
+  "version": "0.0.1",
+  "description": "Experiments with gulp/browserify/coffee/souce-maps config",
+  "main": "build/index.html",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browserify": "^4.1.7",
+    "connect": "^2.19.1",
+    "gulp": "^3.7.0",
+    "gulp-browserify": "^0.5.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-livereload": "^1.5.0",
+    "gulp-sass": "^0.7.1",
+    "gulp-util": "^2.2.16",
+    "tiny-lr": "^0.0.7",
+    "coffeeify": "^0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksey Khoroshev <aleksxor@gmail.com>",
+  "license": "DWTFYW"
+}
